@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>キャンプ飯の材料買ってくるよ！</title>
+  <link rel="stylesheet" href="final.css">
+  <script type="text/javascript" src="modules/lodash.min.js"></script>
+  <script type="text/javascript" src="modules/test-boilerplate.js"></script>
 </head>
 
 <body>
-  <h1>！準備中！</h1>
+  <div class = "input">
+    <h1 id = "title-main">キャンプ飯の材料買ってくるよ！</h1>
+    <label id = "question">キャンプは何人でいく？</label><br>
+    <label id="adult">大人（中学生以上）</label>
+    <input type = "number" id = "adultNum" />人<br>
+    <label id = "elementary">子供（小学生以上）</label>
+    <input type = "number" id = "elementaryNum" />人<br>
+    <label id = "child">幼児（幼稚園）　　</label>
+    <input type = "number" id = "childNum" />人<br>
+    <br>
+    <button id = "finish">入力完了！</button>
+  </div>
+
+
+
+
+  <div class = "output">
+    <p id = "title-mini">今回の買い物はこれだ！！</p>
+    <h2>🍛カレーライス🍛</h2>
+    <p id = "curry"></p><br>
+    <h2>🍖BBQ🍖</h2>
+    <p id = "bbq"></p><br>
+    <h2>🥪ホットサンド🥪</h2>
+    <p id = "hotsand"></p><br>
+  </div>
 
 </body>
+<script src="final.js"></script>
 
 </html>
