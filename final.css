@@ -1,0 +1,30 @@
+body {
+    display: block;
+    font:
+        1rem 'Fira Sans',
+        sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url("back.jpeg");
+    background-size: cover;
+}
+
+.input{
+    color: #fafdfd;
+    font-weight: bold;
+}
+
+#title-main{
+    color: #fafdfd;
+    font-size: 35px;
+}
+
+#question{
+    font-size: 20px;
+}
+
+
+#finish{
+    font-weight: bold;
+    font-size: 26px;
+}
