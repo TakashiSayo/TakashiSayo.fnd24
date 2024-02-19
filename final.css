@@ -40,15 +40,19 @@ body {
     font-weight: bold;
 }
 
+h2{
+    color: red;
+}
+
 #curry{
-    color: #f0d871;
+    color: yellow;
 }
 
 
 #bbq{
-    color: #f0d871;
+    color: yellow;
 }
 
 #hotsand{
-    color: #f8d537;
+    color: yellow;
 }
